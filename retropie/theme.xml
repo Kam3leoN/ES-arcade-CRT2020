@@ -1,0 +1,107 @@
+<!--
+theme name:		es-arcade-crt2020
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
+author:			AndreaMav
+Date:			3/09/2020
+license:		creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="background" extra="true">
+				<size>1 0.5</size>
+				<tile>true</tile>
+				<path>./_inc/system_and.png</path>
+				<tile>false</tile>
+			</image>
+
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+
+		<image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0.2 0.5</origin>
+			<pos>0.65 0.58</pos>
+			<size>0.4 0.13</size>
+		</image>
+
+		<carousel name="systemcarousel">
+	        <color>000000</color>
+	        <colorEnd>E8F6FFF6</colorEnd>
+	        <pos>0 0.6537</pos>
+	        <size>1 0.2325</size>
+	      </carousel>
+
+				 
+		<text name="systemInfo">
+			<color>d0d0d0</color>
+			<pos>0.15 0.5</pos>
+	    	<backgroundColor>00000000</backgroundColor>
+	        <alignment>left</alignment>
+	        <fontSize>0.05</fontSize>
+			<fontPath>./../_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+	      </text>
+	</view>
+
+	
+
+	
+	<view name="detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+
+		<textlist name="gamelist">
+				<selectorColor>001B9D</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+				<forceUppercase>1</forceUppercase>
+				<fontPath>./../art/piccolo.ttf</fontPath>
+				<fontSize>0.045</fontSize>
+				<size>0.330 0.700</size>
+		</textlist>
+
+		<rating name="md_rating">
+			<filledPath>./../art/invisible.png</filledPath>
+			<unfilledPath>./../art/invisible.png</unfilledPath>
+		</rating>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed,">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_description">
+			<color>ffffff</color>
+			<pos>1 1</pos>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./../art/piccolo.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+
+		<image name="logoM" extra="true">
+	            <tile>false</tile>
+	            <origin>0 0</origin>
+				<pos>0.025 0.715</pos>
+				<size>0.445 0.15</size>          
+	            <path>./../art/backlin.png</path>
+	         </image>
+
+		<image name="logo_helper" extra="true">
+			<path>./../art/andmavlog.png</path>
+			<origin>0 0</origin>
+			<pos>0.05 0.72</pos>
+			<size>0.4 0.14</size>
+		</image>
+
+	</view>
+</theme>

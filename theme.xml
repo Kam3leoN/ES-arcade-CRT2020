@@ -1,0 +1,161 @@
+<!--
+theme name:		es-arcade-crt2020
+website:        https://github.com/AndreaMav/es-theme-arcade-crt2020
+version:		2.4
+author:			AndreaMav
+Date:			3/09/2020
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+	<view name="system">
+        
+        <image name="bottom" extra="true">
+            <path>./_res/images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0 0.95</pos>
+            <size>1 0.0655</size>
+            <color>062542</color>
+        </image>
+        <helpsystem name="help">
+            <origin>0 0</origin>
+            <pos>0.012 0.95</pos>
+            <textColor>ffffff</textColor>
+            <iconColor>F7850A</iconColor>
+        </helpsystem>
+        <image name="logo_helper" extra="true">
+            <path>./art/andmavlog.png</path>
+            <origin>0.2 0.5</origin>
+            <pos>0.6 0.8</pos>
+            <size>0.4 0.20</size>
+        </image>
+        <image name="bottom2" extra="true">
+            <path>./art/myzar.png</path>
+            <origin>0.2 0.5</origin>
+            <pos>0.1 0.75</pos>
+            <size>0.33 0.13</size>
+        </image>
+	</view>
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <color>1c1c1cdd</color>
+         </carousel>
+         <text name="systemInfo">
+            <backgroundColor>1c1c1cdd</backgroundColor>
+            <color>e6f2ff</color>
+            <fontPath>./_res/fonts/Cabin-Bold-TTF.ttf</fontPath>
+            <fontSize>0.045</fontSize>
+         </text>
+      </view>
+   </feature>
+
+
+<view name="basic, detailed, video">
+   <helpsystem name="help">
+            <origin>0 0</origin>
+            <pos>0.012 0.96</pos>
+            <textColor>ffffff</textColor>
+            <iconColor>F7850A</iconColor>
+    </helpsystem>
+    <image name="bottom" extra="true">
+            <path>./_res/images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0 0.96</pos>
+            <size>1 0.0655</size>
+            <color>062542</color>
+    </image>
+</view>
+
+ <view name="basic">
+
+ 		<image name="top" extra="true">
+            <path>./_res/images/white.png</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 0.16</size>
+        </image>
+
+   		<textlist name="gamelist">
+				<selectorColor>001B9D</selectorColor>
+				<selectedColor>ffffff</selectedColor>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>7a6161</secondaryColor>
+				<forceUppercase>1</forceUppercase>
+				<pos>0.25 0.18</pos>
+				<size>0.6 0.62</size>
+				<alignment>center</alignment>
+				<horizontalMargin>0.00</horizontalMargin>
+				<lineSpacing>1.35</lineSpacing>
+				<fontSize>0.045</fontSize>
+				<fontPath>./_res/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			</textlist>
+
+			<image name="logo_helper" extra="true">
+            <path>./art/andmavlog.png</path>
+            <origin>0 0</origin>
+            <pos>0.55 0.8</pos>
+            <size>0.4 0.13</size>
+        </image>
+ </view>
+
+    <!-- Game View - All -->
+
+    <view name="basic, detailed, video, grid">
+
+        <image name="background">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <tile>true</tile>
+        </image>
+		<image name="logo">
+			<!-- Left Aligned at Top -->
+			<origin>0 0</origin>
+			<pos>0.3 0.02</pos>
+			<maxSize>0.55 0.14</maxSize>
+		</image>
+
+        <text name="
+            md_lbl_description,
+            md_description,
+            md_lbl_developer,
+            md_developer,
+            md_lbl_genre,
+            md_genre,
+            md_lbl_lastplayed,
+            md_lastplayed,
+            md_lbl_playcount,
+            md_playcount,
+            md_lbl_players,
+            md_players,
+            md_lbl_players,
+            md_players,
+            md_lbl_publisher,
+            md_publisher,
+            md_lbl_rating,
+            md_rating,
+            md_lbl_releasedate,
+            md_releasedate
+            ">
+            <pos>1 1</pos>
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./art/piccolo.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+        </text>
+
+
+    </view>
+
+<view name="detailed, video">
+    <image name="system" extra="true">
+        <!-- Right Aligned at Top -->
+        <origin>1 0</origin>
+        <pos>0.98 0.02</pos>
+        <maxSize>0.2 0.25</maxSize>
+    </image>
+</view>
+
+</theme>
